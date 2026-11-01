@@ -1,43 +1,56 @@
-<a href="https://evangirardsun.com/">
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/header-dark.png">
-    <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/header-light.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.gif">
-    <img src="assets/header-dark.gif" alt="Evan Girard-Sun — ASCII portrait. Engineering at Rice University; robotics and embedded hardware." width="100%">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/workbench-dark.png">
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/workbench-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/workbench-light.gif">
+  <img src="assets/workbench-dark.gif" alt="Evan Girard-Sun. Robotics and embedded systems at Rice University. A small robot waves hello." width="100%">
+</picture>
 
-I'm an engineering student at Rice University interested in robotics and embedded hardware. I work across software and physical design, including CAD for competition robots. I currently research camera-based drone control at Phi Lab.
+<p align="center">
+  <a href="https://evangirardsun.com/">Portfolio ↗</a> &nbsp; / &nbsp;
+  <a href="mailto:evangirard50@gmail.com">Email</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/evan-girard-sun/">LinkedIn</a>
+</p>
 
-[Portfolio ↗](https://evangirardsun.com/) · [Email](mailto:evangirard50@gmail.com) · [LinkedIn](https://www.linkedin.com/in/evan-girard-sun/)
+I'm an engineering student at Rice University interested in how robots sense the world and move through it. At Phi Lab, I work on camera-based control for small drones. I also build embedded hardware and have designed competition robots.
 
-### Selected work
+### Currently working on
 
-**[FireWatch](https://github.com/EvanGirardSun/firewatch)**  
-Drone-mounted fire and smoke detection. Hardware integration and field demonstrations; autonomous patrol remains in development.
+<a href="https://github.com/EvanGirardSun/phi-lab-autonomy"><img align="right" src="assets/phi-follow.gif" width="300" alt="An Air75 drone following an AprilTag target in the lab"></a>
 
-**[FRC mechanical design](https://github.com/EvanGirardSun/frc-mechanical)**  
-Complete robot CAD and manufacturing direction, with working intake and launcher demonstrations.
+**[Camera-based drone autonomy](https://github.com/EvanGirardSun/phi-lab-autonomy)** &nbsp; `2026 · Phi Lab`
 
-**[Central ECU](https://github.com/EvanGirardSun/central-ecu)**  
-An STM32 Nucleo carrier board for Rice Electric Vehicle. Native KiCad files and a reproducible archive check; design under review.
+A stock Air75 uses its analog video feed to estimate its position relative to AprilTags. A laptop runs the controller and sends commands back through an ExpressLRS radio link.
 
-**[Autonomous mini-vehicle · 2023](https://github.com/EvanGirardSun/autonomous-mini-vehicle)**  
-An earlier WRO team project using DonkeyCar with Raspberry Pi and EV3. Original source and engineering journal.
+The repository includes the control loop, camera calibration tools and flight logs. The simulator exercises the same mission logic without connecting to a drone.
+
+[Vision pipeline](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/vision.py) · [Controller](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/control.py) · [Offline checks](https://github.com/EvanGirardSun/phi-lab-autonomy#try-it-without-a-drone)
+
+<br clear="all">
+
+### On the workbench
+
+| Project | What you'll find | Start here |
+| :--- | :--- | :--- |
+| **[Phi Lab autonomy](https://github.com/EvanGirardSun/phi-lab-autonomy)** | AprilTag pose estimation, closed-loop control and CRSF communication | [System architecture](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/docs/architecture.md) |
+| **[Central ECU](https://github.com/EvanGirardSun/central-ecu)** | STM32 carrier-board design with a Python tool that checks the KiCad archive against its BOM and connection list | [Archive checker](https://github.com/EvanGirardSun/central-ecu/blob/main/tools/audit_hardware.py) |
+| **[Autonomous mini-vehicle](https://github.com/EvanGirardSun/autonomous-mini-vehicle)** | Original Python from a **2023** WRO team project built around DonkeyCar and EV3 | [Source and project notes](https://github.com/EvanGirardSun/autonomous-mini-vehicle#readme) |
+
+### What I work with
+
+**Python** for vision and control. **OpenCV / NumPy** for pose estimation and calibration. **KiCad** for embedded hardware. I'm interested in the whole path from a noisy sensor reading to something that works on a real machine.
+
+My [portfolio](https://evangirardsun.com/) has the project footage and more of my physical builds, including FireWatch and FRC.
 
 <details>
-<summary>About the portrait</summary>
+<summary>About the little robot</summary>
 
-The portrait is made from actual text characters mapped from my headshot. Directional strokes follow stronger image edges. The light and dark headers are generated locally; a static image is used when reduced motion is preferred.
+The banner is drawn locally with Python and Pillow. It has light and dark versions, plus a still image for reduced motion.
 
-[Character portrait](assets/portrait.txt) · [Converter](tools/portrait.py) · [Full-size static header](assets/header-dark.png)
+[Draw the banner](tools/render_banner.py)
 
 ```sh
 python -m pip install -r requirements.txt
-python tools/build_header.py --animate
-python -m unittest discover -s tests -v
+python tools/render_banner.py
 ```
-
-The scripts look for a local monospace font on Windows, Linux, or macOS. For the standalone converter, use `--font /path/to/monospace.ttf` if one is not found. The portrait input is in `assets/portrait-source.png`.
 
 </details>
