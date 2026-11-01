@@ -1,7 +1,7 @@
 <a href="https://evangirardsun.com/">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg">
-    <img src="assets/profile.svg?v=2" width="100%" alt="Evan Girard-Sun — robotics and embedded systems. Python, OpenCV, KiCad and CAD. Project snapshots: camera-based drone control and an ECU carrier-board design under review.">
+    <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg?v=3">
+    <img src="assets/profile.svg?v=3" width="100%" alt="Evan Girard-Sun — a character portrait and introduction. Robotics, code and hardware; camera-based drone control, a previous NASA ER4 internship, and an interest in space exploration.">
   </picture>
 </a>
 

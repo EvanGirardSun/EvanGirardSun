@@ -1,45 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="610" viewBox="0 0 1320 610" role="img" aria-labelledby="title desc">
-<title id="title">Evan Girard-Sun — robotics and embedded systems</title>
-<desc id="desc">Tools include Python, OpenCV, KiCad and Fusion. Phi Lab autonomy uses 640 by 480 video and a configured 250 Hz CRSF send rate. The preliminary ECU archive contains 53 PCB footprints and 115 listed connections checked against the PCB.</desc>
-<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace} .label{fill:#ffb56b} .value{fill:#bbdfff} .muted{fill:#8796a6}</style>
-<rect x="1" y="1" width="1318" height="608" rx="18" fill="#141b23" stroke="#303b48"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-labelledby="title desc">
+<title id="title">Evan Girard-Sun — robotics, code and hardware</title>
+<desc id="desc">An ASCII portrait of Evan beside a personal introduction. Current work: camera-based drone control. Previous NASA ER4 robotics internship. Python, OpenCV, PCB design, KiCad, Fusion and Onshape. Interested in space exploration. A text diagram shows the camera-to-control feedback loop.</desc>
+<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace}.label{fill:#ffb56b}.value{fill:#bbdfff}.muted{fill:#8796a6}.portrait{fill:#accce1}</style>
+<rect x="1" y="1" width="1398" height="848" rx="18" fill="#141b23" stroke="#303b48"/>
 <text x="40" y="48" class="value" font-size="21" font-weight="700">evan@workbench</text>
-<text x="230" y="48" class="muted" font-size="21">~ $ profile --focus ece</text>
-<path d="M40 68H1280" stroke="#344250"/>
-<text x="40" y="121" class="value" font-size="42" font-weight="700">Evan Girard-Sun</text>
-<text x="40" y="158" class="muted" font-size="23">robotics / embedded systems</text>
-<text x="40" y="218" class="value" font-size="23" font-weight="700">./toolchain</text>
-<text x="40" y="259" class="label" font-size="26">software</text>
-<text x="250" y="259" class="value" font-size="26">Python / OpenCV</text>
-<text x="40" y="297" class="label" font-size="26">perception</text>
-<text x="250" y="297" class="value" font-size="26">AprilTags / ROS</text>
-<text x="40" y="335" class="label" font-size="26">electronics</text>
-<text x="250" y="335" class="value" font-size="26">KiCad / PCB design</text>
-<text x="40" y="373" class="label" font-size="26">platforms</text>
-<text x="250" y="373" class="value" font-size="26">STM32 Nucleo / Raspberry Pi</text>
-<text x="40" y="411" class="label" font-size="26">mechanical</text>
-<text x="250" y="411" class="value" font-size="26">Fusion / Onshape</text>
-<text x="40" y="449" class="label" font-size="26">interfaces</text>
-<text x="250" y="449" class="value" font-size="26">CAN / UART / CRSF</text>
-<text x="705" y="218" class="value" font-size="23" font-weight="700">./project-snapshots</text>
-<text x="705" y="260" class="muted" font-size="21">phi-lab / camera-based flight</text>
-<text x="705" y="297" class="label" font-size="26">vision.input</text>
-<text x="915" y="297" class="value" font-size="26">640 x 480 video</text>
-<text x="705" y="333" class="label" font-size="26">radio.config</text>
-<text x="915" y="333" class="value" font-size="26">250 Hz / CRSF</text>
-<text x="705" y="369" class="label" font-size="26">test.mode</text>
-<text x="915" y="369" class="value" font-size="26">offline simulation</text>
-<text x="705" y="425" class="muted" font-size="21">ecu / Rev A2 design under review</text>
-<text x="705" y="462" class="label" font-size="26">pcb.archive</text>
-<text x="915" y="462" class="value" font-size="26">53 footprints</text>
-<text x="705" y="498" class="label" font-size="26">net.audit</text>
-<text x="915" y="498" class="value" font-size="26">115 CSV connections</text>
-<path d="M40 550H1280" stroke="#344250"/>
-<text x="40" y="585" class="muted" font-size="20">$ explore ./projects</text>
-<rect x="1127" y="567" width="21" height="18" rx="2" fill="#293744"/>
-<rect x="1151" y="567" width="21" height="18" rx="2" fill="#55748c"/>
-<rect x="1175" y="567" width="21" height="18" rx="2" fill="#81adc7"/>
-<rect x="1199" y="567" width="21" height="18" rx="2" fill="#bbdfff"/>
-<rect x="1223" y="567" width="21" height="18" rx="2" fill="#ffb56b"/>
-<rect x="1247" y="567" width="21" height="18" rx="2" fill="#d7e2ed"/>
+<text x="230" y="48" class="muted" font-size="21">~ $ whoami</text>
+<path d="M40 68H1360" stroke="#344250"/>
+<text x="660" y="160" class="value" font-size="42" font-weight="700">Evan Girard-Sun</text>
+<text x="660" y="223" class="value" font-size="25">I like working on robots, whether that</text>
+<text x="660" y="257" class="value" font-size="25">means writing control software or</text>
+<text x="660" y="291" class="value" font-size="25">designing the hardware around it.</text>
+<g transform="translate(56 137) scale(1)" aria-hidden="true">
+<text class="portrait" x="0" y="0.00" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                      ,;iiii1fi11tt1ii;;;;:                   </text>
+<text class="portrait" x="0" y="14.19" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ,itLCCLLLftLCG000GCLt1;;ii;:                </text>
+<text class="portrait" x="0" y="28.38" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                .1LLGGGGGG0008080G00GGGCL1i;iii;:             </text>
+<text class="portrait" x="0" y="42.57" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              .;1LCCCCGGC008@@880GCCGCGGCGLti;;;i;.           </text>
+<text class="portrait" x="0" y="56.76" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            .;itLCLCG08@@@@@@@@@80GLCGCGCC0GLti;;;i:          </text>
+<text class="portrait" x="0" y="70.95" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          .:i1LGCLCGG0@@@@@@88@@@00GfCCLCLL0GGLt;;;;;         </text>
+<text class="portrait" x="0" y="85.14" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         :;1LGGGGC008@@@@80GCG0@@@G0LLCLLGGLCGGGLi;;i;.       </text>
+<text class="portrait" x="0" y="99.33" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       ,iifG0008GC808@@8GLfti1fC0000CCCLCG8GCCGGGLti;;i:      </text>
+<text class="portrait" x="0" y="113.52" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      .i1G8008@0CLG080Cf1i::::i1LC08G0GG008@800GGGCi;;;;;     </text>
+<text class="portrait" x="0" y="127.71" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      :f0088@@@00GL00Lti;:,,::;itL0@888000088@80GCGLi;i;;,    </text>
+<text class="portrait" x="0" y="141.90" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .1G8@@@@@8@8GGCGf1i;:::;;;itfG@@@@80GGG00GGGCCCLffti:    </text>
+<text class="portrait" x="0" y="156.09" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     ;1G@@@@@@@@@880Cti;:::;;::;iL@@@@@@00G0GGG000GCGCLtti    </text>
+<text class="portrait" x="0" y="170.28" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     it0@@@@@@@@@@@0L1;::::,:::;fG8@@@@@@8800000@@8GGLfft1    </text>
+<text class="portrait" x="0" y="184.47" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     10@88@@@@@@@@@0f1iiii;;ii1f0G8@@888@@@@8@@@@@@8GCCfft    </text>
+<text class="portrait" x="0" y="198.66" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     iG8888@@@@@@@@@@80GLLfttfCG@@@@@80000088@@@@@@@880Cfi    </text>
+<text class="portrait" x="0" y="212.85" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     ;088@@@@@@@@@@880080GCftLGG08008800000008@@@@@@80GCLi    </text>
+<text class="portrait" x="0" y="227.04" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     :0@@@@@@@@@@8GLftfLCGL1:ifCG08@@@880GCLtG@@@@@@8G11i     </text>
+<text class="portrait" x="0" y="241.23" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      C@@@@@@@0008@8@@8Gff1:.,;tfGCG0CCCLt11iC@@@@@@0fi:      </text>
+<text class="portrait" x="0" y="255.42" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      1@@@@@@0CCG00GCCft1;i:.,,::i1tttti;;;;;C008@Ltft;       </text>
+<text class="portrait" x="0" y="269.61" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       0@@@@@0LLfttft1i;;ii:,,,,,,,,::::::::;GGf0Ci;;:        </text>
+<text class="portrait" x="0" y="283.80" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        L@@@@8Lf1i;:::;i11;:....:;:,,,.,,,,:;CCtf1;i:         </text>
+<text class="portrait" x="0" y="297.99" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         ;@@@@Lti;:::;;1t1tti;i1:ii;::,,,,::i1it1;;;          </text>
+<text class="portrait" x="0" y="312.18" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">           f8@Lt1i;;;;iif0@80CGGt;i1i;;:::::;;1ti;i.          </text>
+<text class="portrait" x="0" y="326.37" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            t0Lfftt1111itLLLCL1;:::itti;;::,tC1i;i:           </text>
+<text class="portrait" x="0" y="340.56" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">             ;LfLCLLftt1111iiii;:::;tfti;;::GC;i;;            </text>
+<text class="portrait" x="0" y="354.75" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              ;LLCCLLC0GCCCLLffftttfLt1i;;:1@Liii,            </text>
+<text class="portrait" x="0" y="368.94" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               1CLCLffLLfft111i;;::,:iiii;iG@t;i;             </text>
+<text class="portrait" x="0" y="383.13" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                CGCCLti1tfffft1i;::::;ii110@Gi;i:             </text>
+<text class="portrait" x="0" y="397.32" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                i@00GLfLffftt1i;;::::;i1i;0C1;;;              </text>
+<text class="portrait" x="0" y="411.51" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 G800Cfffti;;:,,,,:::;1i::i;;;i;              </text>
+<text class="portrait" x="0" y="425.70" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 .tG00Gfftt1ii;;:::;i11;::G1;i;i.             </text>
+<text class="portrait" x="0" y="439.89" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ;CG000GCLLLLfft1ttti;::,001;;;;             </text>
+<text class="portrait" x="0" y="454.08" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ;LGG008888800GLftii;;:,t0G0t;ii;            </text>
+<text class="portrait" x="0" y="468.27" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 t8GCGG000888GCLt1iii;:;f0GGG0f;;i:           </text>
+<text class="portrait" x="0" y="482.46" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                C@@0LCGG00000CLft1iiiitG0GGGGGGL1;;:.         </text>
+<text class="portrait" x="0" y="496.65" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              .;C@@0LLCCGG00GCLt11i1fG80GGGGGGG000L1i:        </text>
+<text class="portrait" x="0" y="510.84" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            ,;iiC@@@0CLLCGGGCLLfttL0@800GGGGGGGGG800GL1;      </text>
+<text class="portrait" x="0" y="525.03" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         :;i1fG8@@@@@@8GCCCGGCLLC0@8000GGGGGGG080GGG000GL1.   </text>
+<text class="portrait" x="0" y="539.22" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .:;itfG8@@88@@88@@@8GCCLLC0@800000GGGGGGG80GGG0000000Gf, </text>
+<text class="portrait" x="0" y="553.41" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   :;itLG8@888@@@8888888@@@@888800000GGGGGGGGGGG0000000GGGGGGL</text>
+<text class="portrait" x="0" y="567.60" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">:i1tL08888888888@8888@@@@@@@@@@@00GGGGGGGGGGGGGGGGGG000GGGGGGG</text>
+<text class="portrait" x="0" y="581.79" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">fG088888888888888888@@@@@@@@@@@GG@@8GGGGGGGGGGGGGCCGCCCGGGGGGG</text>
+</g>
+<text x="660" y="390" class="label" font-size="27">Now</text>
+<text x="870" y="390" class="value" font-size="27">Camera-based drone control</text>
+<text x="660" y="430" class="label" font-size="27">Previously</text>
+<text x="870" y="430" class="value" font-size="27">NASA ER4 / robotics</text>
+<text x="660" y="470" class="label" font-size="27">Builds</text>
+<text x="870" y="470" class="value" font-size="27">FRC robot / FireWatch</text>
+<text x="660" y="510" class="label" font-size="27">Code</text>
+<text x="870" y="510" class="value" font-size="27">Python / OpenCV</text>
+<text x="660" y="550" class="label" font-size="27">Hardware</text>
+<text x="870" y="550" class="value" font-size="27">PCB design / KiCad</text>
+<text x="660" y="590" class="label" font-size="27">CAD</text>
+<text x="870" y="590" class="value" font-size="27">Fusion / Onshape</text>
+<text x="660" y="630" class="label" font-size="27">Interests</text>
+<text x="870" y="630" class="value" font-size="27">Space exploration</text>
+<text x="660" y="705" class="muted" font-size="22" xml:space="preserve">[camera] -&gt; [pose] -&gt; [control]</text>
+<text x="660" y="732" class="muted" font-size="22" xml:space="preserve">    ^                    |</text>
+<text x="660" y="759" class="muted" font-size="22" xml:space="preserve">    +------ [drone] &lt;-----+</text>
+<path d="M40 790H1360" stroke="#344250"/>
+<text x="40" y="825" class="muted" font-size="20">$ explore ./projects</text>
+<rect x="1207" y="807" width="21" height="18" rx="2" fill="#293744"/>
+<rect x="1231" y="807" width="21" height="18" rx="2" fill="#55748c"/>
+<rect x="1255" y="807" width="21" height="18" rx="2" fill="#81adc7"/>
+<rect x="1279" y="807" width="21" height="18" rx="2" fill="#bbdfff"/>
+<rect x="1303" y="807" width="21" height="18" rx="2" fill="#ffb56b"/>
+<rect x="1327" y="807" width="21" height="18" rx="2" fill="#d7e2ed"/>
 </svg>
