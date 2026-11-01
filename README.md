@@ -1,6 +1,9 @@
-# Evan Girard-Sun
-
-I work on robot perception and control, currently exploring camera-based autonomy for small drones.
+<a href="https://evangirardsun.com/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg">
+    <img src="assets/profile.svg" width="100%" alt="Evan Girard-Sun — robotics and embedded systems. Python, OpenCV, KiCad and CAD. Project snapshots: camera-based drone control and an ECU carrier-board design under review.">
+  </picture>
+</a>
 
 [Portfolio ↗](https://evangirardsun.com/) &nbsp; / &nbsp; [Email](mailto:evangirard50@gmail.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/evan-girard-sun/)
 

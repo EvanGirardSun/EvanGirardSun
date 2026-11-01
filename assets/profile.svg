@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="610" viewBox="0 0 1320 610" role="img" aria-labelledby="title desc">
+<title id="title">Evan Girard-Sun — robotics and embedded systems</title>
+<desc id="desc">Tools include Python, OpenCV, KiCad and Fusion. Phi Lab autonomy uses 640 by 480 video and a configured 250 Hz CRSF send rate. The preliminary ECU archive contains 53 PCB footprints and 115 listed connections checked against the PCB.</desc>
+<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace} .label{fill:#ffb56b} .value{fill:#bbdfff} .muted{fill:#8796a6}</style>
+<rect x="1" y="1" width="1318" height="608" rx="18" fill="#141b23" stroke="#303b48"/>
+<text x="40" y="48" class="value" font-size="21" font-weight="700">evan@workbench</text>
+<text x="230" y="48" class="muted" font-size="21">~ $ profile --focus ece</text>
+<path d="M40 68H1280" stroke="#344250"/>
+<text x="40" y="121" class="value" font-size="42" font-weight="700">Evan Girard-Sun</text>
+<text x="40" y="158" class="muted" font-size="23">robotics / embedded systems</text>
+<text x="40" y="218" class="value" font-size="23" font-weight="700">./toolchain</text>
+<text x="40" y="259" class="label" font-size="23">software</text>
+<text x="230" y="259" class="value" font-size="23">Python / OpenCV</text>
+<text x="40" y="297" class="label" font-size="23">perception</text>
+<text x="230" y="297" class="value" font-size="23">AprilTags / ROS</text>
+<text x="40" y="335" class="label" font-size="23">electronics</text>
+<text x="230" y="335" class="value" font-size="23">KiCad / PCB design</text>
+<text x="40" y="373" class="label" font-size="23">platforms</text>
+<text x="230" y="373" class="value" font-size="23">STM32 Nucleo / Raspberry Pi</text>
+<text x="40" y="411" class="label" font-size="23">mechanical</text>
+<text x="230" y="411" class="value" font-size="23">Fusion / Onshape</text>
+<text x="40" y="449" class="label" font-size="23">interfaces</text>
+<text x="230" y="449" class="value" font-size="23">CAN / UART / CRSF</text>
+<text x="705" y="218" class="value" font-size="23" font-weight="700">./project-snapshots</text>
+<text x="705" y="260" class="muted" font-size="21">phi-lab / camera-based flight</text>
+<text x="705" y="297" class="label" font-size="23">vision.input</text>
+<text x="895" y="297" class="value" font-size="23">640 x 480 video</text>
+<text x="705" y="333" class="label" font-size="23">radio.config</text>
+<text x="895" y="333" class="value" font-size="23">250 Hz / CRSF</text>
+<text x="705" y="369" class="label" font-size="23">test.mode</text>
+<text x="895" y="369" class="value" font-size="23">offline simulation</text>
+<text x="705" y="425" class="muted" font-size="21">ecu / Rev A2 design under review</text>
+<text x="705" y="462" class="label" font-size="23">pcb.archive</text>
+<text x="895" y="462" class="value" font-size="23">53 footprints</text>
+<text x="705" y="498" class="label" font-size="23">net.audit</text>
+<text x="895" y="498" class="value" font-size="23">115 CSV connections</text>
+<path d="M40 550H1280" stroke="#344250"/>
+<text x="40" y="585" class="muted" font-size="20">$ explore ./projects</text>
+<rect x="1127" y="567" width="21" height="18" rx="2" fill="#293744"/>
+<rect x="1151" y="567" width="21" height="18" rx="2" fill="#55748c"/>
+<rect x="1175" y="567" width="21" height="18" rx="2" fill="#81adc7"/>
+<rect x="1199" y="567" width="21" height="18" rx="2" fill="#bbdfff"/>
+<rect x="1223" y="567" width="21" height="18" rx="2" fill="#ffb56b"/>
+<rect x="1247" y="567" width="21" height="18" rx="2" fill="#d7e2ed"/>
+</svg>
