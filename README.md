@@ -1,23 +1,23 @@
-<a href="https://github.com/EvanGirardSun/EvanGirardSun/blob/main/tools/orbit.py">
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/orbit-dark.png">
-  <img src="assets/orbit-dark.gif" width="100%" alt="Evan Girard-Sun — robotics and computer vision. A medium-Earth-orbit reference shown in an Earth-centered view and as a ground track.">
-</picture>
-</a>
+# Evan Girard-Sun
 
-<p align="center">
-  <a href="https://evangirardsun.com/">Portfolio ↗</a> &nbsp; / &nbsp;
-  <a href="mailto:evangirard50@gmail.com">Email</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/evan-girard-sun/">LinkedIn</a>
-</p>
+I work on robot perception and control, currently exploring camera-based autonomy for small drones.
 
-I work on software that connects what a robot sees to how it moves. My current focus is camera-based drone control, from pose estimation to closed-loop flight.
+[Portfolio ↗](https://evangirardsun.com/) &nbsp; / &nbsp; [Email](mailto:evangirard50@gmail.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/evan-girard-sun/)
 
-### Camera-based drone autonomy
+## Camera-based drone autonomy
 
 `2026` · [Phi Lab](https://github.com/EvanGirardSun/phi-lab-autonomy) · [Flight footage ↗](https://evangirardsun.com/assets/phi-follow-v5.mp4)
 
-AprilTag pose estimation from a stock Air75's video feed, with a state filter and feedback controller running on a laptop. A separate command process handles the CRSF link and stale-input watchdog. Collaborative research code, with a simulator and recorded-flight analysis.
+AprilTag pose estimation and closed-loop control for a stock Air75. Vision runs on a laptop; a separate process handles the radio link and rejects stale commands. Collaborative research at Phi Lab, with offline simulation and recorded-flight analysis.
+
+<p align="center">
+  <a href="https://github.com/EvanGirardSun/phi-lab-autonomy">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/follow.png">
+      <img src="assets/follow.gif" width="360" alt="Air75 following a handheld AprilTag target during a lab flight test">
+    </picture>
+  </a>
+</p>
 
 | Read the code | Implementation |
 | :--- | :--- |
@@ -27,7 +27,7 @@ AprilTag pose estimation from a stock Air75's video feed, with a state filter an
 
 [![Offline checks](https://github.com/EvanGirardSun/phi-lab-autonomy/actions/workflows/offline.yml/badge.svg)](https://github.com/EvanGirardSun/phi-lab-autonomy/actions/workflows/offline.yml) &nbsp; [Architecture](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/docs/architecture.md) · [Flight logs](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/docs/flights.md)
 
-### Learning to drive from camera images
+## Learning to drive from camera images
 
 `2023` · [Autonomous mini-vehicle](https://github.com/EvanGirardSun/autonomous-mini-vehicle)
 
