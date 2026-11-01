@@ -1,7 +1,7 @@
 <a href="https://evangirardsun.com/">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg?v=3">
-    <img src="assets/profile.svg?v=3" width="100%" alt="Evan Girard-Sun — a character portrait and introduction. Robotics, code and hardware; camera-based drone control, a previous NASA ER4 internship, and an interest in space exploration.">
+    <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg?v=4">
+    <img src="assets/profile.svg?v=4" width="100%" alt="Evan Girard-Sun — a character portrait and introduction. Robotics, code and hardware; camera-based drone control, a previous NASA ER4 internship, and an interest in space exploration.">
   </picture>
 </a>
 

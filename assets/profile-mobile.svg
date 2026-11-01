@@ -11,48 +11,30 @@
 <text x="40" y="207" class="value" font-size="25">means writing control software or</text>
 <text x="40" y="241" class="value" font-size="25">designing the hardware around it.</text>
 <g transform="translate(162 285) scale(0.75)" aria-hidden="true">
-<text class="portrait" x="0" y="0.00" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                      ,;iiii1fi11tt1ii;;;;:                   </text>
-<text class="portrait" x="0" y="14.19" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ,itLCCLLLftLCG000GCLt1;;ii;:                </text>
-<text class="portrait" x="0" y="28.38" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                .1LLGGGGGG0008080G00GGGCL1i;iii;:             </text>
-<text class="portrait" x="0" y="42.57" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              .;1LCCCCGGC008@@880GCCGCGGCGLti;;;i;.           </text>
-<text class="portrait" x="0" y="56.76" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            .;itLCLCG08@@@@@@@@@80GLCGCGCC0GLti;;;i:          </text>
-<text class="portrait" x="0" y="70.95" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          .:i1LGCLCGG0@@@@@@88@@@00GfCCLCLL0GGLt;;;;;         </text>
-<text class="portrait" x="0" y="85.14" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         :;1LGGGGC008@@@@80GCG0@@@G0LLCLLGGLCGGGLi;;i;.       </text>
-<text class="portrait" x="0" y="99.33" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       ,iifG0008GC808@@8GLfti1fC0000CCCLCG8GCCGGGLti;;i:      </text>
-<text class="portrait" x="0" y="113.52" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      .i1G8008@0CLG080Cf1i::::i1LC08G0GG008@800GGGCi;;;;;     </text>
-<text class="portrait" x="0" y="127.71" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      :f0088@@@00GL00Lti;:,,::;itL0@888000088@80GCGLi;i;;,    </text>
-<text class="portrait" x="0" y="141.90" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .1G8@@@@@8@8GGCGf1i;:::;;;itfG@@@@80GGG00GGGCCCLffti:    </text>
-<text class="portrait" x="0" y="156.09" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     ;1G@@@@@@@@@880Cti;:::;;::;iL@@@@@@00G0GGG000GCGCLtti    </text>
-<text class="portrait" x="0" y="170.28" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     it0@@@@@@@@@@@0L1;::::,:::;fG8@@@@@@8800000@@8GGLfft1    </text>
-<text class="portrait" x="0" y="184.47" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     10@88@@@@@@@@@0f1iiii;;ii1f0G8@@888@@@@8@@@@@@8GCCfft    </text>
-<text class="portrait" x="0" y="198.66" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     iG8888@@@@@@@@@@80GLLfttfCG@@@@@80000088@@@@@@@880Cfi    </text>
-<text class="portrait" x="0" y="212.85" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     ;088@@@@@@@@@@880080GCftLGG08008800000008@@@@@@80GCLi    </text>
-<text class="portrait" x="0" y="227.04" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     :0@@@@@@@@@@8GLftfLCGL1:ifCG08@@@880GCLtG@@@@@@8G11i     </text>
-<text class="portrait" x="0" y="241.23" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      C@@@@@@@0008@8@@8Gff1:.,;tfGCG0CCCLt11iC@@@@@@0fi:      </text>
-<text class="portrait" x="0" y="255.42" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      1@@@@@@0CCG00GCCft1;i:.,,::i1tttti;;;;;C008@Ltft;       </text>
-<text class="portrait" x="0" y="269.61" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       0@@@@@0LLfttft1i;;ii:,,,,,,,,::::::::;GGf0Ci;;:        </text>
-<text class="portrait" x="0" y="283.80" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        L@@@@8Lf1i;:::;i11;:....:;:,,,.,,,,:;CCtf1;i:         </text>
-<text class="portrait" x="0" y="297.99" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         ;@@@@Lti;:::;;1t1tti;i1:ii;::,,,,::i1it1;;;          </text>
-<text class="portrait" x="0" y="312.18" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">           f8@Lt1i;;;;iif0@80CGGt;i1i;;:::::;;1ti;i.          </text>
-<text class="portrait" x="0" y="326.37" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            t0Lfftt1111itLLLCL1;:::itti;;::,tC1i;i:           </text>
-<text class="portrait" x="0" y="340.56" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">             ;LfLCLLftt1111iiii;:::;tfti;;::GC;i;;            </text>
-<text class="portrait" x="0" y="354.75" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              ;LLCCLLC0GCCCLLffftttfLt1i;;:1@Liii,            </text>
-<text class="portrait" x="0" y="368.94" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               1CLCLffLLfft111i;;::,:iiii;iG@t;i;             </text>
-<text class="portrait" x="0" y="383.13" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                CGCCLti1tfffft1i;::::;ii110@Gi;i:             </text>
-<text class="portrait" x="0" y="397.32" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                i@00GLfLffftt1i;;::::;i1i;0C1;;;              </text>
-<text class="portrait" x="0" y="411.51" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 G800Cfffti;;:,,,,:::;1i::i;;;i;              </text>
-<text class="portrait" x="0" y="425.70" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 .tG00Gfftt1ii;;:::;i11;::G1;i;i.             </text>
-<text class="portrait" x="0" y="439.89" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ;CG000GCLLLLfft1ttti;::,001;;;;             </text>
-<text class="portrait" x="0" y="454.08" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  ;LGG008888800GLftii;;:,t0G0t;ii;            </text>
-<text class="portrait" x="0" y="468.27" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 t8GCGG000888GCLt1iii;:;f0GGG0f;;i:           </text>
-<text class="portrait" x="0" y="482.46" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                C@@0LCGG00000CLft1iiiitG0GGGGGGL1;;:.         </text>
-<text class="portrait" x="0" y="496.65" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              .;C@@0LLCCGG00GCLt11i1fG80GGGGGGG000L1i:        </text>
-<text class="portrait" x="0" y="510.84" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            ,;iiC@@@0CLLCGGGCLLfttL0@800GGGGGGGGG800GL1;      </text>
-<text class="portrait" x="0" y="525.03" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         :;i1fG8@@@@@@8GCCCGGCLLC0@8000GGGGGGG080GGG000GL1.   </text>
-<text class="portrait" x="0" y="539.22" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .:;itfG8@@88@@88@@@8GCCLLC0@800000GGGGGGG80GGG0000000Gf, </text>
-<text class="portrait" x="0" y="553.41" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   :;itLG8@888@@@8888888@@@@888800000GGGGGGGGGGG0000000GGGGGGL</text>
-<text class="portrait" x="0" y="567.60" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">:i1tL08888888888@8888@@@@@@@@@@@00GGGGGGGGGGGGGGGGGG000GGGGGGG</text>
-<text class="portrait" x="0" y="581.79" font-size="14.2" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">fG088888888888888888@@@@@@@@@@@GG@@8GGGGGGGGGGGGGCCGCCCGGGGGGG</text>
+<text class="portrait" x="0" y="0.00" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">            :-----===-:::.          </text>
+<text class="portrait" x="0" y="24.44" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          -+++++****+++=-:::        </text>
+<text class="portrait" x="0" y="48.89" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        :=+++**###*+++++++-::.      </text>
+<text class="portrait" x="0" y="73.33" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      :=+++*###*+*#*+===+++=:::     </text>
+<text class="portrait" x="0" y="97.78" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .=+**++*#+=::-=**+++**+++-::.   </text>
+<text class="portrait" x="0" y="122.22" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    =*###*+++-....-=********++-::   </text>
+<text class="portrait" x="0" y="146.67" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   :*#####*+-:....:=###*+++**++=-.  </text>
+<text class="portrait" x="0" y="171.11" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   =*######*-:::::=*####***##*+==:  </text>
+<text class="portrait" x="0" y="195.56" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   =**#####**++==+*##*****####**+:  </text>
+<text class="portrait" x="0" y="220.00" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   -######*++++=:-+**#*++=+###*=:   </text>
+<text class="portrait" x="0" y="244.44" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .####++*++=::..:--=-:::+**+=:    </text>
+<text class="portrait" x="0" y="268.89" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    -###=-::::::  ........===:.     </text>
+<text class="portrait" x="0" y="293.33" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      +#=-..::=+=--::....::-::      </text>
+<text class="portrait" x="0" y="317.78" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       =+=----=+=-:.:-::.:=::       </text>
+<text class="portrait" x="0" y="342.22" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        :++==+=----:---:.==:.       </text>
+<text class="portrait" x="0" y="366.67" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         =+==-==--::.:::=#-:        </text>
+<text class="portrait" x="0" y="391.11" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         .#*===--:....::--::        </text>
+<text class="portrait" x="0" y="415.56" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          :+*+=--::.:-:.--::        </text>
+<text class="portrait" x="0" y="440.00" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          .+*****++--:..+*-::       </text>
+<text class="portrait" x="0" y="464.44" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         :#+++***+=:::-++++=:.      </text>
+<text class="portrait" x="0" y="488.89" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">        .+#*=++*+=--=+**++++*+-.    </text>
+<text class="portrait" x="0" y="513.33" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .:=+*##**+++=+***+++++*****+:  </text>
+<text class="portrait" x="0" y="537.78" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .-=+*###***###****+++++++*+*****+=</text>
+<text class="portrait" x="0" y="562.22" font-size="24.44" textLength="528" lengthAdjust="spacingAndGlyphs" xml:space="preserve">-+**********######***++++++++++++++*</text>
 </g>
 <text x="40" y="790" class="label" font-size="26">Now</text>
 <text x="230" y="790" class="value" font-size="26">Camera-based drone control</text>
