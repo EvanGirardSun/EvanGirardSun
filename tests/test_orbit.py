@@ -29,6 +29,11 @@ class OrbitTests(unittest.TestCase):
     def test_meo_reference_period(self):
         self.assertTrue(11.9<orbit.PERIOD_S/3600<12.1)
 
+    def test_earth_occludes_only_objects_behind_its_silhouette(self):
+        self.assertTrue(orbit.occulted((-orbit.RADIUS_KM,0,0),(1,0,0)))
+        self.assertFalse(orbit.occulted((orbit.RADIUS_KM,0,0),(1,0,0)))
+        self.assertFalse(orbit.occulted((-orbit.RADIUS_KM,1.1*orbit.EARTH_RADIUS_KM,0),(1,0,0)))
+
 
 if __name__=="__main__":
     unittest.main()

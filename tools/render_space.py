@@ -157,8 +157,9 @@ def render(theme,t=0):
     if dot(v,LOOK)>0:
         rays=[(nadir[0]+(pt[0]-nadir[0])*k/24,nadir[1]+(pt[1]-nadir[1])*k/24) for k in range(25)]
         dashed(d,rays,p["amber"],step=2)
-    circle(d,pt,7,fill=p["bg"],outline=p["amber"],width=1.4)
-    circle(d,pt,2,fill=p["amber"])
+    if not orbit.occulted(v,LOOK):
+        circle(d,pt,7,fill=p["bg"],outline=p["amber"],width=1.4)
+        circle(d,pt,2,fill=p["amber"])
     label(d,(ORIGIN[0]-22,ORIGIN[1]+73),"EARTH",13,p["muted"],mono=True)
     ground_track(d,p,t)
     line(d,[(36,588),(1402,588)],p["faint"])

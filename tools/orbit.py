@@ -30,3 +30,10 @@ def ground_point(t):
     latitude = math.degrees(math.asin(z / RADIUS_KM))
     longitude = math.degrees(math.atan2(ye, xe))
     return longitude, latitude
+
+
+def occulted(v, unit_view):
+    """Whether Earth blocks the orthographic view of a spacecraft position."""
+    depth = sum(a*b for a,b in zip(v,unit_view))
+    distance2 = sum(a*a for a in v) - depth*depth
+    return depth < 0 and distance2 < EARTH_RADIUS_KM**2
