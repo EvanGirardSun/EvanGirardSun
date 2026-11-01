@@ -1,6 +1,6 @@
 # Evan Girard-Sun
 
-I like working on robots, whether that means writing control software or designing the hardware around it.
+I like robotics.
 
 [Portfolio ↗](https://evangirardsun.com/) &nbsp; / &nbsp; [Email](mailto:evangirard50@gmail.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/evan-girard-sun/)
 
