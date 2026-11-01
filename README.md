@@ -1,9 +1,6 @@
-<a href="https://evangirardsun.com/">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg?v=4">
-    <img src="assets/profile.svg?v=4" width="100%" alt="Evan Girard-Sun — a character portrait and introduction. Robotics, code and hardware; camera-based drone control, a previous NASA ER4 internship, and an interest in space exploration.">
-  </picture>
-</a>
+# Evan Girard-Sun
+
+I like working on robots, whether that means writing control software or designing the hardware around it.
 
 [Portfolio ↗](https://evangirardsun.com/) &nbsp; / &nbsp; [Email](mailto:evangirard50@gmail.com) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/evan-girard-sun/)
 
