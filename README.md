@@ -1,9 +1,11 @@
+<a href="https://github.com/EvanGirardSun/EvanGirardSun/blob/main/tools/orbit.py">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/research-header-dark.png">
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/research-header-light.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/research-header-light.gif">
-  <img src="assets/research-header-dark.gif" width="100%" alt="Evan Girard-Sun — Robot perception and control">
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/orbit-dark.png">
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/orbit-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/orbit-light.gif">
+  <img src="assets/orbit-dark.gif" width="100%" alt="Evan Girard-Sun — robotics and computer vision. A medium-Earth-orbit reference shown in an Earth-centered view and as a ground track.">
 </picture>
+</a>
 
 <p align="center">
   <a href="https://evangirardsun.com/">Portfolio ↗</a> &nbsp; / &nbsp;
@@ -12,11 +14,6 @@
 </p>
 
 I work on software that connects what a robot sees to how it moves. My current focus is camera-based drone control, from pose estimation to closed-loop flight.
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/research-dashboard-light.png">
-  <img src="assets/research-dashboard-dark.png" width="100%" alt="Public contribution calendar and recorded drone pose traces. Source files: vision.py, control.py and link_server.py. Five recorded sessions and nine follow-mode simulation cases.">
-</picture>
 
 ### Camera-based drone autonomy
 
