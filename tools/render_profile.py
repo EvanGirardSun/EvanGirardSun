@@ -78,8 +78,8 @@ def refresh():
         raise ValueError("Unexpected telemetry columns")
     (ROOT / "data").mkdir(exist_ok=True)
     (ROOT / "data/public-activity.json").write_text(json.dumps({
-        "updated": datetime.now(timezone.utc).date().isoformat(), "days": days}, indent=2) + "\n")
-    (ROOT / "data/follow-session.csv").write_text(flight, encoding="utf-8")
+        "updated": datetime.now(timezone.utc).date().isoformat(), "days": days}, indent=2) + "\n", encoding="utf-8", newline="\n")
+    (ROOT / "data/follow-session.csv").write_text(flight, encoding="utf-8", newline="\n")
 
 
 def font(size, bold=False, mono=False):
