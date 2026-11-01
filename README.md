@@ -1,8 +1,6 @@
 <a href="https://github.com/EvanGirardSun/EvanGirardSun/blob/main/tools/orbit.py">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/orbit-dark.png">
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/orbit-light.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/orbit-light.gif">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/orbit-dark.png">
   <img src="assets/orbit-dark.gif" width="100%" alt="Evan Girard-Sun — robotics and computer vision. A medium-Earth-orbit reference shown in an Earth-centered view and as a ground track.">
 </picture>
 </a>
