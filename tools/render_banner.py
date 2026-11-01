@@ -61,7 +61,42 @@ def main():
         frames[0].save(ROOT / "assets" / f"workbench-{theme}.png", optimize=True)
         frames[0].save(ROOT / "assets" / f"workbench-{theme}.gif", save_all=True,
                        append_images=frames[1:], duration=[1800, 180, 180, 180, 180, 110, 180, 180], loop=0)
-    print("Built light/dark robot banners with static alternatives")
+        draw_pipeline(theme == "dark").save(ROOT / "assets" / f"control-loop-{theme}.png", optimize=True)
+    draw_avatar().save(ROOT / "assets" / "robot-avatar.png", optimize=True)
+    print("Built robot banners, control-loop strips and a matching avatar")
+
+
+def draw_pipeline(dark):
+    bg, ink, muted = ("#101b20", "#edf3e8", "#a3b6b6") if dark else ("#f4f5ed", "#152d33", "#53696c")
+    image = Image.new("RGB", (1280, 156), bg)
+    d = ImageDraw.Draw(image)
+    labels = [("CAMERA", "analog video"), ("POSE", "AprilTags"),
+              ("CONTROL", "mission + PD/I"), ("RADIO", "CRSF / ELRS")]
+    for i, (title, detail) in enumerate(labels):
+        x = 44 + i * 316
+        d.text((x, 28), f"0{i+1}", font=font(17, True), fill="#94cfb0" if dark else "#347859")
+        d.text((x, 60), title, font=font(27, True), fill=ink)
+        d.text((x, 104), detail, font=font(21), fill=muted)
+        if i < 3:
+            d.line((x+223, 76, x+265, 76), fill=muted, width=2)
+            d.line((x+257, 69, x+265, 76, x+257, 83), fill=muted, width=2)
+    return image
+
+
+def draw_avatar():
+    image = Image.new("RGB", (500, 500), "#101b20")
+    d = ImageDraw.Draw(image)
+    # Keep the face and antenna inside GitHub's circular avatar crop.
+    d.ellipse((32, 32, 468, 468), fill="#172c30")
+    d.line((250, 170, 250, 115), fill="#94cfb0", width=10)
+    d.ellipse((235, 91, 265, 121), fill="#e9a057")
+    d.rounded_rectangle((82, 165, 418, 365), radius=48, fill="#94cfb0")
+    d.rounded_rectangle((123, 207, 377, 317), radius=30, fill="#193c40")
+    for x in (190, 310):
+        d.rounded_rectangle((x-14, 235, x+14, 277), radius=12, fill="#e7f5d8")
+    d.arc((228, 267, 272, 296), 0, 180, fill="#e7f5d8", width=6)
+    d.rounded_rectangle((214, 377, 286, 401), radius=8, fill="#94cfb0")
+    return image
 
 
 if __name__ == "__main__":
