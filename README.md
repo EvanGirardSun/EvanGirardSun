@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/workbench-dark.png">
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/workbench-light.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/workbench-light.gif">
-  <img src="assets/workbench-dark.gif" alt="Evan Girard-Sun. Robotics and embedded systems at Rice University. A small robot waves hello." width="100%">
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/research-header-dark.png">
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/research-header-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/research-header-light.gif">
+  <img src="assets/research-header-dark.gif" width="100%" alt="Evan Girard-Sun — Robot perception and control">
 </picture>
 
 <p align="center">
@@ -11,50 +11,33 @@
   <a href="https://www.linkedin.com/in/evan-girard-sun/">LinkedIn</a>
 </p>
 
-I'm an engineering student at Rice University interested in how robots sense the world and move through it. At Phi Lab, I work on camera-based control for small drones. I also build embedded hardware and have designed competition robots.
+I work on software that connects what a robot sees to how it moves. My current focus is camera-based drone control, from pose estimation to closed-loop flight.
 
-### Currently working on
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/research-dashboard-light.png">
+  <img src="assets/research-dashboard-dark.png" width="100%" alt="Public contribution calendar and recorded drone pose traces. Source files: vision.py, control.py and link_server.py. Five recorded sessions and nine follow-mode simulation cases.">
+</picture>
 
-**[Camera-based drone autonomy](https://github.com/EvanGirardSun/phi-lab-autonomy)** &nbsp; `2026 · Phi Lab`
+### Camera-based drone autonomy
 
-A stock Air75 uses its analog video feed to estimate its position relative to AprilTags. A laptop runs the controller and sends commands back through an ExpressLRS radio link.
+`2026` · [Phi Lab](https://github.com/EvanGirardSun/phi-lab-autonomy) · [Flight footage ↗](https://evangirardsun.com/assets/phi-follow-v5.mp4)
 
-The repository includes the control loop, camera calibration tools and flight logs. The simulator exercises the same mission logic without connecting to a drone.
+AprilTag pose estimation from a stock Air75's video feed, with a state filter and feedback controller running on a laptop. A separate command process handles the CRSF link and stale-input watchdog. Collaborative research code, with a simulator and recorded-flight analysis.
 
-[Vision pipeline](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/vision.py) · [Controller](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/control.py) · [Watch a flight ↗](https://evangirardsun.com/assets/phi-follow-v5.mp4)
+| Read the code | Implementation |
+| :--- | :--- |
+| [vision.py](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/vision.py) | Fisheye geometry, tag detection and PnP pose estimation |
+| [control.py](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/control.py) | State estimation and mission logic; body-frame feedback control |
+| [tests/](https://github.com/EvanGirardSun/phi-lab-autonomy/tree/main/tests) | Synthetic calibration tests, follow simulations and fake-device integration tests |
 
-<a href="https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/docs/architecture.md">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/control-loop-light.png">
-    <img src="assets/control-loop-dark.png" width="100%" alt="Drone control pipeline: camera capture, AprilTag pose, mission controller, CRSF radio link. Open the system architecture.">
-  </picture>
-</a>
+[![Offline checks](https://github.com/EvanGirardSun/phi-lab-autonomy/actions/workflows/offline.yml/badge.svg)](https://github.com/EvanGirardSun/phi-lab-autonomy/actions/workflows/offline.yml) &nbsp; [Architecture](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/docs/architecture.md) · [Flight logs](https://github.com/EvanGirardSun/phi-lab-autonomy/blob/main/docs/flights.md)
 
-[![Phi Lab offline checks](https://github.com/EvanGirardSun/phi-lab-autonomy/actions/workflows/offline.yml/badge.svg)](https://github.com/EvanGirardSun/phi-lab-autonomy/actions/workflows/offline.yml)
+### Learning to drive from camera images
 
-### Other code
+`2023` · [Autonomous mini-vehicle](https://github.com/EvanGirardSun/autonomous-mini-vehicle)
 
-| Project | What you'll find | Start here |
-| :--- | :--- | :--- |
-| **[Central ECU](https://github.com/EvanGirardSun/central-ecu)** | STM32 carrier-board design with a Python tool that checks the KiCad archive against its BOM and connection list | [Archive checker](https://github.com/EvanGirardSun/central-ecu/blob/main/tools/audit_hardware.py) |
-| **[Autonomous mini-vehicle](https://github.com/EvanGirardSun/autonomous-mini-vehicle)** | Original Python from a **2023** WRO team project built around DonkeyCar and EV3 | [Source and project notes](https://github.com/EvanGirardSun/autonomous-mini-vehicle#readme) |
+An earlier WRO team project using DonkeyCar and TensorFlow. Camera images paired with driving commands fed a behavioral-cloning training pipeline. I worked on model training and vehicle integration; the original Python source and project journal are preserved.
 
-### What I work with
+[Training and driving code](https://github.com/EvanGirardSun/autonomous-mini-vehicle/tree/main/FEV-WRO%202023-Future%20Engineers/src) · [Project notes](https://github.com/EvanGirardSun/autonomous-mini-vehicle#readme)
 
-**Python** for vision and control. **OpenCV / NumPy** for pose estimation and calibration. **KiCad** for embedded hardware. I'm interested in the whole path from a noisy sensor reading to something that works on a real machine.
-
-My [portfolio](https://evangirardsun.com/) has the project footage and more of my physical builds, including FireWatch and FRC.
-
-<details>
-<summary>About the little robot</summary>
-
-The mascot and control-loop strip are drawn locally with Python and Pillow. They have light and dark versions, and the animated banner has a still image for reduced motion.
-
-[Draw the banner](tools/render_banner.py)
-
-```sh
-python -m pip install -r requirements.txt
-python tools/render_banner.py
-```
-
-</details>
+More project footage and engineering work at [evangirardsun.com](https://evangirardsun.com/).
